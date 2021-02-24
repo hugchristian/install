@@ -29,7 +29,6 @@ mas install 823766827 # OneDrive
 mas install 904280696 # Things
 #mas install 1437681957 # Audiobook Builder
 mas install 1147396723 # WhatsApp
-mas install 883070818 # SafeInCloud Passwort Manager
 mas install 1176074088 # Termius
 mas install 901110441 # Ninox Database
 #mas install 558317092 # Meta

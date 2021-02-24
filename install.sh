@@ -59,7 +59,7 @@ brew install google-chrome
 brew install gpg-suite
 brew install launchpad-manager
 #brew install mactex
-brew install minikube
+#brew install minikube
 brew install obs
 brew install openconnect-gui
 brew install openvpn-connect

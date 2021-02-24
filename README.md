@@ -2,5 +2,5 @@
 Installation scripts for my devices.
 
 ```shell
-sh -c "$(https://raw.githubusercontent.com/hugchristian/install/main/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/hugchristian/install/main/install.sh)"
 ```

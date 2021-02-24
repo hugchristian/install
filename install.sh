@@ -35,7 +35,7 @@ mas install 901110441 # Ninox Database
 #mas install 558317092 # Meta
 
 
-echo "Installing brew apps..."
+echo "Installing Homebrew apps..."
 brew install ansible
 brew install helm
 #brew install kubectl

@@ -1,5 +1,12 @@
 # install
-👨‍💻 Installation script for my main device. 
+
+The script installs software and settings according to my needs. This includes:
+- Install Homebrew & activates autoupdate
+- Install mas-cli
+- Install Oh My Zsh
+- Install App Store apps
+- Install Homebrew apps
+- Install Homebrew Cask apps
 
 ### Prerequisites
 - macOS

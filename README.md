@@ -1,5 +1,5 @@
 # install
-Installation scripts for my devices.
+👨‍💻 Installation script for my main device. 
 
 
 ### Basic Installation

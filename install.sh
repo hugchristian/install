@@ -71,3 +71,10 @@ brew install veracrypt
 brew install visual-paradigm-ce
 brew install visual-studio-code
 brew install vlc
+
+echo "setup Firewall..."
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on # enable Firewall
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setloggingmode on # enable log mode
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setstealthmode on # enable Stealth mode
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setallowsigned off # Disabled allow signed built-in applications automatically
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setallowsignedapp off #Disabled allow signed downloaded applications automatically

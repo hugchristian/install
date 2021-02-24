@@ -1,8 +1,11 @@
 # install
 👨‍💻 Installation script for my main device. 
 
+### Prerequisites
+- macOS
+- logged into the App Store
 
-### Basic Installation
+### Installation
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/hugchristian/install/main/install.sh)"
 ```

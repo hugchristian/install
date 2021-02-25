@@ -62,10 +62,8 @@ brew install openconnect-gui
 brew install openvpn-connect
 brew install parsec
 brew install resilio-sync
-brew install sequel-pro
 brew install tor-browser
 brew install veracrypt
-brew install visual-paradigm-ce
 brew install visual-studio-code
 brew install vlc
 

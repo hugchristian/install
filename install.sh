@@ -27,18 +27,16 @@ mas install 1295203466 # Microsoft Remote Desktop
 mas install 1079833326 # Receipts
 mas install 823766827 # OneDrive
 mas install 904280696 # Things
-#mas install 1437681957 # Audiobook Builder
 mas install 1147396723 # WhatsApp
 mas install 1176074088 # Termius
 mas install 901110441 # Ninox Database
-#mas install 558317092 # Meta
 
 
 echo "Installing Homebrew apps..."
 brew install ansible
 brew install helm
 #brew install kubectl
-#brew install terraform
+brew install hashicorp/tap/terraform
 brew install magic-wormhole
 brew install terminal-notifier
 brew install youtube-dl

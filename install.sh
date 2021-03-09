@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 # To execute: `sh install.sh`
 
 # https://brew.sh/

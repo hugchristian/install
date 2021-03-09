@@ -5,7 +5,7 @@
 
 ### Prerequisites
 - macOS
-- logged into the App Store
+- loggedin to the App Store
 
 ### Installation
 ```shell

@@ -39,7 +39,7 @@ brew install helm
 #brew install kubectl
 brew install magic-wormhole
 brew install terminal-notifier
-brew install hashicorp/tap/terraform
+brew install terraform
 brew install youtube-dl
 
 echo "Installing brew cask apps..."

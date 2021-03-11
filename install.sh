@@ -36,7 +36,7 @@ mas install 1475387142 # Tailscale
 echo "Installing Homebrew apps..."
 brew install ansible
 brew install helm
-#brew install kubectl
+#brew install kubernetes-cli
 brew install magic-wormhole
 brew install terminal-notifier
 brew install terraform
@@ -46,7 +46,6 @@ echo "Installing brew cask apps..."
 brew install arq
 brew install autodesk-fusion360
 brew install bartender
-brew install brooklyn
 brew install discord
 #brew install docker --cask
 brew install figma

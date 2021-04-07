@@ -8,6 +8,7 @@ echo "Installing brew..."
 # https://github.com/DomT4/homebrew-autoupdate
 echo "Activate autoupdate..."
 brew tap domt4/autoupdate
+brew install terminal-notifier
 brew autoupdate --start 43200 --upgrade --cleanup --enable-notification
 
 # https://github.com/mas-cli/mas
@@ -36,9 +37,9 @@ echo "Installing Homebrew apps..."
 #brew install kubernetes-cli
 brew install magic-wormhole
 brew install minikube
-brew install terminal-notifier
 brew install terraform
 brew install youtube-dl
+brew install openssh
 
 echo "Installing brew cask apps..."
 brew install arq

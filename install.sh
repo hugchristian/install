@@ -4,8 +4,6 @@
 # https://brew.sh/
 echo "Installing brew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/hugchristian/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # https://github.com/DomT4/homebrew-autoupdate
 echo "Activate autoupdate..."

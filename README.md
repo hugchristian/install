@@ -5,7 +5,7 @@
 
 ### Prerequisites
 - macOS
-- Signed into the Mac App Store GUI app manually.
+- Signed into the Mac App Store manually.
 
 ### Installation
 ```shell

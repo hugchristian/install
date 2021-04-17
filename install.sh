@@ -26,6 +26,7 @@ mas install 872698314 # MoneyMoney
 mas install 1295203466 # Microsoft Remote Desktop
 mas install 1469182443 # SnipperApp 2
 mas install 1079833326 # Receipts
+mas install 462058435 # Microsoft Excel
 mas install 904280696 # Things
 mas install 1147396723 # WhatsApp
 mas install 409201541 # Pages
@@ -34,19 +35,22 @@ mas install 901110441 # Ninox Database
 
 
 echo "Installing Homebrew apps..."
-#brew install kubernetes-cli
+brew install kubernetes-cli
+brew install mackup
 brew install magic-wormhole
 brew install minikube
+brew install node
+brew install packer
 brew install terraform
 brew install youtube-dl
-brew install openssh
 
 echo "Installing brew cask apps..."
+brew install airbuddy
 brew install arq
-brew install autodesk-fusion360
 brew install bartender
+brew install camunda-modeler
 brew install discord
-#brew install docker --cask
+brew install docker --cask
 brew install figma
 brew install firefox
 brew install fontbase
@@ -57,14 +61,17 @@ brew install gpg-suite
 brew install intellij-idea-ce
 brew install keepingyouawake
 brew install launchpad-manager
-#brew install mactex
+# brew install mactex
 brew install obs
 brew install openvpn-connect
+brew install parallels
+brew install parallels-virtualization-sdk
 brew install parsec
 brew install resilio-sync
 brew install silicon --cask
 brew install tor-browser
 brew install utm
+brew install vagrant
 brew install veracrypt
 brew install visual-studio-code
 brew install vlc

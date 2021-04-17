@@ -17,10 +17,6 @@ brew autoupdate --start 43200 --upgrade --cleanup --enable-notification
 echo "Installing mas..."
 brew install mas
 
-# https://ohmyz.sh/
-echo "Installing Oh My Zsh..."
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 echo "Installing App Store apps..."
 mas install 441258766 # Magnet
 mas install 425424353 # The Unarchiver
@@ -77,6 +73,13 @@ brew install vagrant
 brew install veracrypt
 brew install visual-studio-code
 brew install vlc
+
+# .gitignore_global
+curl -O https://raw.githubusercontent.com/hugchristian/install/main/.gitignore_global
+
+# https://ohmyz.sh/
+echo "Installing Oh My Zsh..."
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "install softwareupdate..."
 sudo softwareupdate -ia

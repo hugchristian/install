@@ -9,6 +9,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # https://github.com/DomT4/homebrew-autoupdate
 echo "Activate autoupdate..."
+mkdir -p ./Library/LaunchAgents
 brew tap domt4/autoupdate
 brew install terminal-notifier
 brew autoupdate --start 43200 --upgrade --cleanup --enable-notification

@@ -48,7 +48,6 @@ echo "Installing brew cask apps..."
 brew install arq
 brew install bartender
 brew install cloudytabs
-brew install discord
 brew install docker --cask
 brew install figma
 brew install firefox
@@ -66,7 +65,7 @@ brew install obsidian
 brew install parallels
 brew install parallels-virtualization-sdk
 brew install parsec
-brew install resilio-sync#
+brew install resilio-sync
 brew install shimo
 brew install silicon --cask
 brew install tor-browser
@@ -75,7 +74,6 @@ brew install vagrant
 brew install veracrypt
 brew install visual-studio-code
 brew install vlc
-brew install webex-meetings
 
 # .gitignore_global
 curl -O https://raw.githubusercontent.com/hugchristian/install/main/.gitignore_global

@@ -60,7 +60,6 @@ brew install keepassxc
 brew install keepingyouawake
 brew install launchpad-manager
 brew install libreoffice
-brew install obs
 brew install obsidian
 brew install parallels
 brew install parallels-virtualization-sdk
@@ -69,7 +68,6 @@ brew install resilio-sync
 brew install shimo
 brew install silicon --cask
 brew install tor-browser
-brew install utm
 brew install vagrant
 brew install veracrypt
 brew install visual-studio-code

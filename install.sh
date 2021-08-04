@@ -19,40 +19,36 @@ brew install mas
 #brew autoupdate --start 43200 --upgrade --cleanup --enable-notification
 
 echo "Installing App Store apps..."
-mas install 824183456 # Affinity Photo 
+
 mas install 904280696 # Things
-mas install 549083868 # Display Menu
-mas install 462058435 # Microsoft Excel
-mas install 1475387142 # Tailscale
-mas install 1079833326 # Receipts
-mas install 824171161 # Affinity Designer
-mas install 462054704 # Microsoft Word
-mas install 1528890965 # TextSniper
-mas install 881418622 # Affinity Publisher
+mas install 1091675654 # Shapr3D
 mas install 441258766 # Magnet
+mas install 1079833326 # Receipts
+mas install 462058435 # Microsoft Excel
+mas install 881418622 # Affinity Publisher
 mas install 425424353 # The Unarchiver
 mas install 1433801905 # PDF Archiver
+mas install 1533590432 # Homie
+mas install 824183456 # Affinity Photo 
+mas install 1528890965 # TextSniper
 mas install 1006087419 # SnippetsLab
-mas install 872698314 # MoneyMoney
-mas install 1091675654 # Shapr3D
+mas install 1475387142 # Tailscale
 mas install 1295203466 # Microsoft Remote Desktop
-mas install 1444383602 # GoodNotes  
-mas install 411643860 # DaisyDisk
+mas install 549083868 # Display Menu
+mas install 872698314 # MoneyMoney
+mas install 824171161 # Affinity Designer
+mas install 462054704 # Microsoft Word
 mas install 901110441 # Ninox Database
+mas install 1444383602 # GoodNotes  
 
 
 echo "Installing Homebrew apps..."
 brew install ansible
 brew install ffmpeg
 brew install helm
-brew install kind 
 brew install kubernetes-cli
-brew install mackup
 brew install magic-wormhole
-brew install minikube
-brew install node
 brew install terraform
-brew install yarn
 brew install youtube-dl
 
 
@@ -78,16 +74,17 @@ brew install keycastr
 brew install launchpad-manager
 brew install lens
 brew install libreoffice
+brew install numi
 brew install obsidian
 brew install parallels
 brew install parallels-virtualization-sdk
 brew install parsec
+brew install pdf-expert
 brew install resilio-sync
 brew install shimo
 brew install silicon --cask
 brew install tor-browser
 brew install vagrant
-brew install veracrypt
 brew install visual-studio-code
 brew install webex-meetings
 
